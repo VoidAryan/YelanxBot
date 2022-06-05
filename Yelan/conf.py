@@ -1,5 +1,5 @@
 from envparse import env
-from YorForger  import LOGGER
+from Yelan import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
