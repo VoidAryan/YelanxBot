@@ -1,5 +1,5 @@
 from telethon import events
-from YorForger import client as telethn
+from Yelan import client as telethn
 
 
 def register(**args):
