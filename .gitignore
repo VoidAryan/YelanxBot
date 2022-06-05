@@ -1,7 +1,7 @@
-YorForger/config.py
+Yelan/config.py
 logfile
-YorForger.session
-YorForger.session-journal
+Yelan.session
+Yelan.session-journal
 *.pyc
 .idea/
 .project
@@ -14,5 +14,5 @@ sticker.png
 kangsticker.png
 kangsticker.tgs
 kangsticker
-YorForger.mp3
+Yelan.mp3
 gpic.png
