@@ -1,5 +1,5 @@
 {
-  "name": "Yor - San",
+  "name": "Yelan",
   "description": "Telegram group management bot.",
   "logo": "",
   "keywords": [
@@ -7,11 +7,11 @@
     "anime",
     "group",
     "manager",
-    "Yor"
+    "Yelan"
   ],
-  "repository": "https://github.com/SOME-1HING/yor-froger-bot.git",
-  "website": "https://Ryu120.github.io",
-  "success_url": "t.me/+dGeoDP2ke3U4MWM1",
+  "repository": "https://github.com/voidxtoxic/YelanxBot.git",
+  "website": "https://voidxtoxic.github.io",
+  "success_url": "t.me/voidxnetwork",
   "addons": [
    {
      "options": {
@@ -80,7 +80,7 @@
       "value": "-1001599383497"
     },
     "DEV_USERS": {
-      "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
+      "description": "List of id's of your devs....Id Of VOID IS THERE SO DONT REMOVE",
       "required": false,
       "value": ""
     },
