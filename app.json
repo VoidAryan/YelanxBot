@@ -1,0 +1,195 @@
+{
+  "name": "Yor - San",
+  "description": "Telegram group management bot.",
+  "logo": "",
+  "keywords": [
+    "telegram",
+    "anime",
+    "group",
+    "manager",
+    "Yor"
+  ],
+  "repository": "https://github.com/SOME-1HING/yor-froger-bot.git",
+  "website": "https://Ryu120.github.io",
+  "success_url": "t.me/+dGeoDP2ke3U4MWM1",
+  "addons": [
+   {
+     "options": {
+       "version": "12"
+     },
+     "plan": "heroku-postgresql"
+   }
+  ],
+  "buildpacks": [
+   {
+     "url": "https://github.com/heroku/heroku-buildpack-python"
+   },
+   {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   },
+   {
+     "url": "heroku/python"
+   }
+  ],
+  "env": {
+    "TOKEN": {
+      "description": "Your bot token. Get one from @BotFather duh",
+      "required": true,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+      "required": true,
+      "value": ""
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "description": "Your postgres sql db, empty this field if you dont have one.ex: sqldbtype://username:pw@hostname:port/db_name",
+      "required": false,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your user ID as an integer.",
+      "required": true,
+      "value": "645739169"
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+      "required": false
+    },
+    "OWNER_USERNAME": {
+      "description": "Your username without the @",
+      "value": "Anomaliii"
+    },
+    "SUPPORT_CHAT": {
+      "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to zeldris support than consider you made an enemy.",
+      "required": true,
+      "value": "IDNCoderX"
+    },
+    "MESSAGE_DUMP": {
+      "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+      "required": true,
+      "value": "-1001599383497"
+    },
+    "DEV_USERS": {
+      "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_USERS": {
+      "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
+      "required": false,
+      "value": ""
+    },
+    "DRAGONS": {
+      "description": "DRAGONS/SUDOS",
+      "required": false,
+      "value": ""
+    },
+    "WOLVES": {
+      "description": "WOLVES",
+      "required": false,
+      "value": ""
+    },
+    "TIGERS": {
+      "description": "TIGERS",
+      "required": false,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "MONGO DB URI from mongo",
+      "required": true,
+      "value": ""
+    },
+
+    "WHITELIST_USERS": {
+      "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
+      "required": false,
+      "value": ""
+    },
+    "SPAMWATCH_API": {
+      "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+      "required": true,
+      "value": ""
+    },
+    "STRICT_GBAN": {
+      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+      "value": "True"
+    },
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+      "value": "ANYTHING"
+    },
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
+      "required": false,
+      "value": ""
+    },
+    "PORT": {
+      "description": "Port to use for your webhooks. Better leave this as it is on heroku",
+      "required": false,
+      "value": ""
+    },
+    "URL": {
+      "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+      "required": false,
+      "value": ""
+    },
+    "NO_LOAD": {
+      "description": "Dont load these modules cause they shit, space separation",
+      "required": false,
+      "value": ""
+    },
+    "BLACKLIST_CHATS": {
+      "description": "List of chats you want blacklisted.",
+      "required": false,
+      "value": ""
+    },
+    "WHITELIST_CHATS": {
+      "description": "List of chats you want blacklisted.",
+      "required": false,
+      "value": ""
+    },
+    "ALLOW_EXCL": {
+      "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+      "value": "True"
+    },
+    "DONATION_LINK": {
+      "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
+      "required": false,
+      "value": "https://t.me/IDNCoderX"
+    },
+    "DEL_CMDS": {
+      "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+      "value": "True"
+    },
+    "BAN_STICKER": {
+      "description": "ID of the sticker you want to use when banning people.",
+      "required": false,
+      "value": ""
+    },
+    "WALL_API": {
+      "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+      "required": false,
+      "value": ""
+    },
+    "API_OPENWEATHER": {
+      "description": "Required for weather module.",
+      "required": false,
+      "value": ""
+    },
+    "REDIS_URL": {
+      "description": "Take it from redislabs.com and the format should be redis://username:password@cluster/",
+      "required": "True",
+      "value": ""
+    }
+  }
+}
