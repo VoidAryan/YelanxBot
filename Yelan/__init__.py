@@ -15,7 +15,7 @@ from telethon.sessions import MemorySession
 StartTime = time.time()
 
 # enable logging
-FORMAT = "[YorForger] %(message)s"
+FORMAT = "[Yelan] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
@@ -25,12 +25,12 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-LOGGER.info("[Kita] Starting Kita...")
+LOGGER.info("[Yelan] Starting Yelan...")
 
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     LOGGER.error(
-        "[Kita] You MUST have a python version of at least 3.6! Multiple features depend on this. Bot quitting."
+        "[Yelan] You MUST have a python version of at least 3.6! Multiple features depend on this. Bot quitting."
     )
     sys.exit(1)
 
@@ -50,14 +50,14 @@ if ENV:
         DEV_USERS = {int(x) for x in os.environ.get("DEV_USERS", "").split()}
     except ValueError:
         raise Exception(
-            "[Kita] Your dev users list does not contain valid integers."
+            "[Yelan] Your dev users list does not contain valid integers."
         )
 
     try:
         SUPPORT_USERS = {int(x) for x in os.environ.get("SUPPORT_USERS", "").split()}
     except ValueError:
         raise Exception(
-            "[Kita] Your support users list does not contain valid integers."
+            "[Yelan] Your support users list does not contain valid integers."
         )
 
     try:
@@ -66,7 +66,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your whitelisted users list does not contain valid integers."
+            "[Yelan] Your whitelisted users list does not contain valid integers."
         )
     try:
         DEMONS = {
@@ -74,7 +74,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your demon users list does not contain valid integers."
+            "[Yelan] Your demon users list does not contain valid integers."
         )
     try:
         TIGERS = {
@@ -82,7 +82,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your demon users list does not contain valid integers."
+            "[Yelan] Your demon users list does not contain valid integers."
         )
     try:
         WOLVES = {
@@ -90,7 +90,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your demon users list does not contain valid integers."
+            "[Yelan] Your demon users list does not contain valid integers."
         )
     try:
         DRAGONS = {
@@ -98,7 +98,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your demon users list does not contain valid integers."
+            "[Yelan] Your demon users list does not contain valid integers."
         )
 
     try:
@@ -107,7 +107,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your whitelisted chats list does not contain valid integers."
+            "[Yelan] Your whitelisted chats list does not contain valid integers."
         )
     try:
         BLACKLIST_CHATS = {
@@ -115,7 +115,7 @@ if ENV:
         }
     except ValueError:
         raise Exception(
-            "[Kita] Your blacklisted chats list does not contain valid integers."
+            "[Yelan] Your blacklisted chats list does not contain valid integers."
         )
 
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
@@ -147,7 +147,7 @@ if ENV:
     SPAMMERS = os.environ.get("SPAMMERS", None)
 
 else:
-    from YorForger.config import Development as Config
+    from Yelan.config import Development as Config
 
     TOKEN = Config.TOKEN
     try:
@@ -230,19 +230,19 @@ BOT_ID = 5446239938
 # Pass if SpamWatch token not set.
 if SPAMWATCH is None:
     spamwtc = None
-    LOGGER.warning("[Kita] Invalid spamwatch api")
+    LOGGER.warning("[Yelan] Invalid spamwatch api")
 else:
     spamwtc = spamwatch.Client(SPAMWATCH)
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 try:
     REDIS.ping()
-    LOGGER.info("[Kita] Your redis server is now alive!")
+    LOGGER.info("[Yelan] Your redis server is now alive!")
 except BaseException:
-    raise Exception("[Kita] Your redis server is not alive, please check again.")
+    raise Exception("[Yelan] Your redis server is not alive, please check again.")
 finally:
     REDIS.ping()
-    LOGGER.info("[Kita] Your redis server is now alive!")
+    LOGGER.info("[Yelan] Your redis server is now alive!")
 
 # Telethon
 client = TelegramClient(MemorySession(), API_ID, API_HASH)
@@ -279,12 +279,12 @@ def spamfilters(text, user_id, chat_id):
     if int(user_id) not in SPAMMERS:
         return False
 
-    print("[Kita] This user is a spammer!")
+    print("[Yelan] This user is a spammer!")
     return True
 
 
-if 949365920 not in DEV_USERS:
-    LOGGER.critical(f"{OWNER_ID} Is Cheating. Add `949365920` In DEV_USERS To Fix This")
+if 5380679553 not in DEV_USERS:
+    LOGGER.critical(f"{OWNER_ID} Is Cheating. Add `5380679553` In DEV_USERS To Fix This")
     sys.exit(1)
 else:
     LOGGER.info("Your Bot Is Ready")
