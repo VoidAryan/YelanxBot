@@ -4,7 +4,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from YorForger.modules.sql import SESSION, BASE
+from Yelan.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
