@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, func, distinct
 
-from YorForger.modules.sql import SESSION, BASE
+from Yelan.modules.sql import SESSION, BASE
 
 
 class Disable(BASE):
