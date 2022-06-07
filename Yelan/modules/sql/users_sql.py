@@ -10,8 +10,8 @@ from sqlalchemy import (
     func,
 )
 from sqlalchemy.sql.sqltypes import BigInteger
-from YorForger import dispatcher
-from YorForger.modules.sql import BASE, SESSION
+from Yelan import dispatcher
+from Yelan.modules.sql import BASE, SESSION
 
 
 class Users(BASE):
