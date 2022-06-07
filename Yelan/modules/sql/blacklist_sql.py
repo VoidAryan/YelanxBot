@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText, Integer
 
-from YorForger.modules.sql import SESSION, BASE
+from Yelan.modules.sql import SESSION, BASE
 
 
 class BlackListFilters(BASE):
