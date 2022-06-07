@@ -1,7 +1,7 @@
 from pyrogram import filters
 
 from Yelan import pbot as app
-from Yelan.utlis.error import capture_err
+from Yelan.utils.error import capture_err
 
 __mod_name__ = "WebSS"
 __help__ = "`/webss` [URL] - Take A Screenshot Of A Webpage"
