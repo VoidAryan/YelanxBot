@@ -12,8 +12,8 @@ from telegram import (
     Message,
 )
 
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
 
 info_btn = "More Information"
 prequel_btn = "⬅️ Prequel"

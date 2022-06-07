@@ -8,22 +8,22 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler
 
-# from YorForger.modules.sql import warns_sql as warnssql
-import YorForger.modules.sql.blacklist_sql as blacklistsql
+# from Yelan.modules.sql import warns_sql as warnssql
+import Yelan.modules.sql.blacklist_sql as blacklistsql
 
-# from YorForger.modules.sql import cust_filters_sql as filtersql
-# import YorForger.modules.sql.welcome_sql as welcsql
-import YorForger.modules.sql.locks_sql as locksql
-import YorForger.modules.sql.notes_sql as sql
+# from Yelan.modules.sql import cust_filters_sql as filtersql
+# import Yelan.modules.sql.welcome_sql as welcsql
+import Yelan.modules.sql.locks_sql as locksql
+import Yelan.modules.sql.notes_sql as sql
 
-# from YorForger.modules.rules import get_rules
-import YorForger.modules.sql.rules_sql as rulessql
-from YorForger import dispatcher, LOGGER, OWNER_ID, MESSAGE_DUMP
-from YorForger.__main__ import DATA_IMPORT
-from YorForger.modules.connection import connected
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.chat_status import user_admin
-from YorForger.modules.sql import disable_sql as disabledsql
+# from Yelan.modules.rules import get_rules
+import Yelan.modules.sql.rules_sql as rulessql
+from Yelan import dispatcher, LOGGER, OWNER_ID, MESSAGE_DUMP
+from Yelan.__main__ import DATA_IMPORT
+from Yelan.modules.connection import connected
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.chat_status import user_admin
+from Yelan.modules.sql import disable_sql as disabledsql
 
 
 @user_admin

@@ -2,8 +2,8 @@ import html
 
 import bs4
 import requests
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, run_async

@@ -4,8 +4,8 @@ from typing import List
 from telegram import Update
 from telegram.ext import run_async, CallbackContext
 
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
 
 # sleep how many times after each edit in 'love'
 EDIT_SLEEP = 1

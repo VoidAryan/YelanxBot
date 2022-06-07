@@ -1,10 +1,10 @@
 from os import remove
 from pyrogram import filters
-from YorForger import DEV_USERS, SUPPORT_USERS, WHITELIST_USERS, pbot as app
-from YorForger.modules.wall import arq
-from YorForger.utlis.error import capture_err
-from YorForger.modules.helper_funcs.chun import adminsOnly
-from YorForger.modules.sql.nsfw_sql import is_nsfw, rem_nsfw, set_nsfw
+from Yelan import DEV_USERS, SUPPORT_USERS, WHITELIST_USERS, pbot as app
+from Yelan.modules.wall import arq
+from Yelan.utlis.error import capture_err
+from Yelan.modules.helper_funcs.chun import adminsOnly
+from Yelan.modules.sql.nsfw_sql import is_nsfw, rem_nsfw, set_nsfw
 
 SUDOS = DEV_USERS, SUPPORT_USERS, WHITELIST_USERS
 

@@ -12,9 +12,9 @@ from telegram import ParseMode
 from telegram.error import BadRequest
 from ujson import loads
 
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action
 
 GITHUB = "https://github.com"
 DEVICES_DATA = "https://raw.githubusercontent.com/androidtrackers/certified-android-devices/master/by_device.json"

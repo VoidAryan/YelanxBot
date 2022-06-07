@@ -1,7 +1,7 @@
 """
 import asyncio
 
-from YorForger import pbot
+from Yelan import pbot
 from pyrogram import Client, errors
 from pyrogram.raw import types, functions
 from pyrogram.raw.base import Update

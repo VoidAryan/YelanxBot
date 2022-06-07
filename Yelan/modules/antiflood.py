@@ -7,13 +7,13 @@ from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler, CommandHandler
 from telegram.utils.helpers import mention_html
 
-from YorForger import dispatcher
-from YorForger.modules.connection import connected
-from YorForger.modules.helper_funcs.alternate import send_message, typing_action
-from YorForger.modules.helper_funcs.chat_status import is_user_admin, user_admin
-from YorForger.modules.helper_funcs.string_handling import extract_time
-from YorForger.modules.log_channel import loggable
-from YorForger.modules.sql import antiflood_sql as sql
+from Yelan import dispatcher
+from Yelan.modules.connection import connected
+from Yelan.modules.helper_funcs.alternate import send_message, typing_action
+from Yelan.modules.helper_funcs.chat_status import is_user_admin, user_admin
+from Yelan.modules.helper_funcs.string_handling import extract_time
+from Yelan.modules.log_channel import loggable
+from Yelan.modules.sql import antiflood_sql as sql
 
 FLOOD_GROUP = 3
 

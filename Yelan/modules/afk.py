@@ -5,19 +5,19 @@ from telegram import MessageEntity
 from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler
 
-from YorForger import dispatcher, REDIS
-from YorForger.modules.disable import (
+from Yelan import dispatcher, REDIS
+from Yelan.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from YorForger.modules.helper_funcs.readable_time import get_readable_time
-from YorForger.modules.redis.afk_redis import (
+from Yelan.modules.helper_funcs.readable_time import get_readable_time
+from Yelan.modules.redis.afk_redis import (
     start_afk,
     end_afk,
     is_user_afk,
     afk_reason,
 )
-from YorForger.modules.users import get_user_id
+from Yelan.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
