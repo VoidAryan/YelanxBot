@@ -10,12 +10,12 @@ import asyncio
 import pyrogram
 
 
-from YorForger.modules.renamer.scrimp import scrimp
+from Yelan.modules.renamer.scrimp import scrimp
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 
-from YorForger.modules.renamer.rehelp import progress_for_pyrogram
+from Yelan.modules.renamer.rehelp import progress_for_pyrogram
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
