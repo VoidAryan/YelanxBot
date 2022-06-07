@@ -84,32 +84,35 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph/file/bee6f9297ff8d3e2ec1c7.jpg"
-HELP_MSG = "Click the button below to get help menu in your pm."
-START_MSG = "I'm Working Out!\n<b>Haven't stopped since:</b> <code>{}</code>"
-START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
+HELP_IMG = "https://telegra.ph/file/d04b97943062721b30e75.jpg"
+HELP_MSG = "--[ Yelan's Abilities ]--"
+START_MSG = "I'm Slaying!\n<b>Haven't stopped since:</b> <code>{}</code>"
+START_IMG = "https://telegra.ph/file/44cf934136b412f383193.jpg"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/871f52a6198ade88a7f3b.mp4) 」────
-Konichiwa `{}`.
-*An Anime Based Bot Working Under* [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)
+────「 [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork) 」────
+ᴋᴏɴɪᴄʜɪᴡᴀ `{}`.
+*ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ
+━━━━━━━━━━━━━━━━━━━━━
+ɪ'ᴍ ɴɪɢʜᴛ ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✨
 ┏━━━━━━━━━━━━━━━━━━━━
-× *Working since:* `{}`
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-× `{}` *Teammates, Across* `{}` *Chat groups.*
+× *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* `{}`
+× `{}` *ᴛᴇᴀᴍᴍᴀᴛᴇꜱ. ᴀᴄʀᴏꜱꜱ* `{}` *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ.*
 ┗━━━━━━━━━━━━━━━━━━━━
-*Try The /help Button Below To Know My Abilities!*
+    [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/yelanxsupport) | [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/yelanxupdates)
+━━━━━━━━━━━━━━━━━━━━━
+*ᴀᴛᴛᴀᴄᴋ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*
 """
 
 GROUP_START_TEXT = """
-I'm awake already!
-Haven't stopped since: {}
+ꜱᴀᴍᴇ ᴀꜱ ʙᴇꜰᴏʀᴇ
+ʜᴀᴠᴇɴ'ᴛ ʀᴇꜱᴛ ꜱɪɴᴄᴇ: {}
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Invite Me At Your Residence",url="http://t.me/kitaxrobot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴅᴏᴍᴀɪɴ",url="http://t.me/kitaxrobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
