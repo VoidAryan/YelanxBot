@@ -11,7 +11,7 @@ import Yelan.modules.sql.users_sql as sql
 
 from sys import argv
 from typing import Optional
-from YorForger import (
+from Yelan import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,

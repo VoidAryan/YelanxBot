@@ -268,7 +268,7 @@ WOLVES = list(WOLVES)
 
 # Load at end to ensure all prev variables have been set
 # pylint: disable=C0413
-from YorForger.modules.helper_funcs.handlers import CustomCommandHandler
+from Yelan.modules.helper_funcs.handlers import CustomCommandHandler
 
 if CUSTOM_CMD and len(CUSTOM_CMD) >= 1:
     tg.CommandHandler = CustomCommandHandler

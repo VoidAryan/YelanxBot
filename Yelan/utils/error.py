@@ -1,7 +1,7 @@
 import sys
 import traceback
 from functools import wraps
-from YorForger import pbot, MESSAGE_DUMP as EVENT_LOGS
+from Yelan import pbot, MESSAGE_DUMP as EVENT_LOGS
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
 

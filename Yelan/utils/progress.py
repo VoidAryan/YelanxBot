@@ -2,7 +2,7 @@ import math
 import time
 
 from .exceptions import CancelProcess
-from YorForger.modules.renamer.rehelp import humanbytes, TimeFormatter as time_formatter
+from Yelan.modules.renamer.rehelp import humanbytes, TimeFormatter as time_formatter
 
 
 async def progress(
