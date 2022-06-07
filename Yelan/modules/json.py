@@ -6,8 +6,8 @@ from telethon import types
 from telethon.tl import functions, types
 
 
-from YorForger.events import register
-from YorForger import telethn
+from Yelan.events import register
+from Yelan import telethn
 
 
 async def is_register_admin(chat, user):

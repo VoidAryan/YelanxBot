@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from YorForger import DEV_USERS, SUPPORT_USERS,pbot as app
+from Yelan import DEV_USERS, SUPPORT_USERS,pbot as app
 
 SUDOERS = SUPPORT_USERS.append(DEV_USERS)
 

@@ -3,8 +3,8 @@ import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from YorForger import client as telethn
-from YorForger.events import register as nobara
+from Yelan import client as telethn
+from Yelan.events import register as nobara
 
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 

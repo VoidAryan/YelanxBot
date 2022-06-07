@@ -4,8 +4,8 @@ import subprocess
 from telegram import ParseMode
 from telegram.ext import CommandHandler
 
-from YorForger import LOGGER, dispatcher
-from YorForger.modules.helper_funcs.chat_status import dev_plus
+from Yelan import LOGGER, dispatcher
+from Yelan.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus

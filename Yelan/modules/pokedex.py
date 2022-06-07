@@ -2,7 +2,7 @@
 
 import aiohttp
 from pyrogram import filters
-from YorForger import pbot as tomori
+from Yelan import pbot as tomori
 
 
 @tomori.on_message(filters.command("pokedex"))

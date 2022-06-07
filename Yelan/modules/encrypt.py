@@ -1,6 +1,6 @@
-from YorForger import client as tbot
+from Yelan import client as tbot
 import os
-from YorForger.events import register
+from Yelan.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")

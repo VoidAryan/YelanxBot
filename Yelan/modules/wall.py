@@ -10,9 +10,9 @@ from pySmartDL import SmartDL
 from os import remove
 from telegram import ChatAction
 from telegram.ext import Filters, run_async
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action, send_action
-from YorForger import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action, send_action
+from Yelan import dispatcher
 
 down_p = './'
 

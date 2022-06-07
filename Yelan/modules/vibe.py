@@ -4,7 +4,7 @@ import aiohttp
 import youtube_dl
 
 from pyrogram import filters
-from YorForger import pbot
+from Yelan import pbot
 from youtube_search import YoutubeSearch
 
 

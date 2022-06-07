@@ -2,18 +2,18 @@ import os
 import html
 import nekos
 import requests
-import YorForger.modules.sql.nsfw_sql as sql
+import Yelan.modules.sql.nsfw_sql as sql
 
 from time import sleep
 from PIL import Image
 from telegram import ParseMode
-from YorForger import dispatcher, updater
-from YorForger.modules.log_channel import loggable
+from Yelan import dispatcher, updater
+from Yelan.modules.log_channel import loggable
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CommandHandler, run_async, CallbackContext
-from YorForger.modules.helper_funcs.filters import CustomFilters
-from YorForger.modules.helper_funcs.chat_status import user_admin
+from Yelan.modules.helper_funcs.filters import CustomFilters
+from Yelan.modules.helper_funcs.chat_status import user_admin
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
 @user_admin

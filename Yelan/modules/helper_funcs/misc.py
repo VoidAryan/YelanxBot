@@ -3,7 +3,7 @@ from math import ceil
 from telegram import MAX_MESSAGE_LENGTH, InlineKeyboardButton, Bot, ParseMode
 from telegram.error import TelegramError
 
-from YorForger import LOAD, NO_LOAD
+from Yelan import LOAD, NO_LOAD
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):

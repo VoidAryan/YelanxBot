@@ -1,6 +1,6 @@
 import requests
 
-from YorForger import pbot as pgram
+from Yelan import pbot as pgram
 from pyrogram import filters
 from bs4 import BeautifulSoup
 

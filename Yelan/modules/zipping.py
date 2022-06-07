@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from YorForger import TEMP_DOWNLOAD_DIRECTORY
-from YorForger import telethn as client
-from YorForger.events import register
+from Yelan import TEMP_DOWNLOAD_DIRECTORY
+from Yelan import telethn as client
+from Yelan.events import register
 
 
 async def is_register_admin(chat, user):

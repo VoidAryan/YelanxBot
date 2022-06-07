@@ -7,8 +7,8 @@ from telegram.error import BadRequest, TelegramError
 from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_html
 
-import YorForger.modules.sql.global_bans_sql as sql
-from YorForger import (
+import Yelan.modules.sql.global_bans_sql as sql
+from Yelan import (
     dispatcher,
     OWNER_ID,
     DEV_USERS,
@@ -20,11 +20,11 @@ from YorForger import (
     MESSAGE_DUMP,
     spamwtc,
 )
-from YorForger.modules.helper_funcs.alternate import typing_action, send_action
-from YorForger.modules.helper_funcs.chat_status import user_admin, is_user_admin
-from YorForger.modules.helper_funcs.extraction import extract_user, extract_user_and_text
-from YorForger.modules.helper_funcs.filters import CustomFilters
-from YorForger.modules.sql.users_sql import get_all_chats
+from Yelan.modules.helper_funcs.alternate import typing_action, send_action
+from Yelan.modules.helper_funcs.chat_status import user_admin, is_user_admin
+from Yelan.modules.helper_funcs.extraction import extract_user, extract_user_and_text
+from Yelan.modules.helper_funcs.filters import CustomFilters
+from Yelan.modules.sql.users_sql import get_all_chats
 
 GBAN_ENFORCE_GROUP = 6
 

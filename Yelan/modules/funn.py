@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import YorForger.modules.fun_strings as fun_strings
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.chat_status import is_user_admin
-from YorForger.modules.helper_funcs.extraction import extract_user
+import Yelan.modules.fun_strings as fun_strings
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.chat_status import is_user_admin
+from Yelan.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext

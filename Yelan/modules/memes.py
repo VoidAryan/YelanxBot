@@ -9,15 +9,15 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters
 from telegram.utils.helpers import escape_markdown
 
-import YorForger.modules.helper_funcs.fun_strings as fun
-from YorForger import LOGGER, DEV_USERS, SUPPORT_USERS, dispatcher
-from YorForger.modules.disable import (
+import Yelan.modules.helper_funcs.fun_strings as fun
+from Yelan import LOGGER, DEV_USERS, SUPPORT_USERS, dispatcher
+from Yelan.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.extraction import extract_user
-from YorForger.modules.helper_funcs.filters import CustomFilters
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.extraction import extract_user
+from Yelan.modules.helper_funcs.filters import CustomFilters
 
 
 @typing_action

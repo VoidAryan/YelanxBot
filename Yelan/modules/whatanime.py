@@ -10,7 +10,7 @@ from decimal import Decimal
 from datetime import timedelta
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from YorForger import pbot
+from Yelan import pbot
 
 session = aiohttp.ClientSession()
 progress_callback_data = {}

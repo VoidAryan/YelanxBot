@@ -25,7 +25,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, CallbackContext, CallbackQueryHandler
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from YorForger import (
+from Yelan import (
     WOLVES,
     dispatcher,
     OWNER_ID,
@@ -38,11 +38,11 @@ from YorForger import (
     TIGERS,
     spamwtc,
 )
-from YorForger.__main__ import STATS, USER_INFO, GDPR
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action, send_action
-from YorForger.modules.helper_funcs.extraction import extract_user
-from YorForger.modules.helper_funcs.filters import CustomFilters
+from Yelan.__main__ import STATS, USER_INFO, GDPR
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action, send_action
+from Yelan.modules.helper_funcs.extraction import extract_user
+from Yelan.modules.helper_funcs.filters import CustomFilters
 
 
 @typing_action

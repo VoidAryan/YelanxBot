@@ -14,9 +14,9 @@ from telegram import (
 )
 from telegram.ext import CallbackContext
 
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action, send_action
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action, send_action
 
 trans = SyncTranslator()
 

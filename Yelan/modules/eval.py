@@ -11,8 +11,8 @@ from contextlib import redirect_stdout
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from YorForger import LOGGER, dispatcher
-from YorForger.modules.helper_funcs.chat_status import dev_plus
+from Yelan import LOGGER, dispatcher
+from Yelan.modules.helper_funcs.chat_status import dev_plus
 
 namespaces = {}
 

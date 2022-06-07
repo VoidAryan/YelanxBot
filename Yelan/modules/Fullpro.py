@@ -3,12 +3,12 @@ import traceback
 
 from pyrogram import filters
 from pyrogram.types import ChatPermissions
-from YorForger import OWNER_ID
+from Yelan import OWNER_ID
 import os 
 
 
-from YorForger import DEV_USERS, SUPPORT_USERS
-from YorForger import BOT_ID, pbot as app
+from Yelan import DEV_USERS, SUPPORT_USERS
+from Yelan import BOT_ID, pbot as app
 
 
 

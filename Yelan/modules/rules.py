@@ -7,11 +7,11 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters
 from telegram.utils.helpers import escape_markdown
 
-import YorForger.modules.sql.rules_sql as sql
-from YorForger import dispatcher
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.chat_status import user_admin
-from YorForger.modules.helper_funcs.string_handling import markdown_parser
+import Yelan.modules.sql.rules_sql as sql
+from Yelan import dispatcher
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.chat_status import user_admin
+from Yelan.modules.helper_funcs.string_handling import markdown_parser
 
 
 @typing_action

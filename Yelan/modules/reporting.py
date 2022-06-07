@@ -13,11 +13,11 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from YorForger import dispatcher, LOGGER
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.chat_status import user_not_admin, user_admin
-from YorForger.modules.log_channel import loggable
-from YorForger.modules.sql import reporting_sql as sql
+from Yelan import dispatcher, LOGGER
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.chat_status import user_not_admin, user_admin
+from Yelan.modules.log_channel import loggable
+from Yelan.modules.sql import reporting_sql as sql
 
 REPORT_GROUP = 5
 

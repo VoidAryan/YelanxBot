@@ -16,26 +16,26 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from YorForger import dispatcher  # BAN_STICKER
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.chat_status import (
+from Yelan import dispatcher  # BAN_STICKER
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.chat_status import (
     is_user_admin,
     bot_admin,
     user_admin_no_reply,
     user_admin,
     can_restrict,
 )
-from YorForger.modules.helper_funcs.extraction import (
+from Yelan.modules.helper_funcs.extraction import (
     extract_text,
     extract_user_and_text,
     extract_user,
 )
-from YorForger.modules.helper_funcs.filters import CustomFilters
-from YorForger.modules.helper_funcs.misc import split_message
-from YorForger.modules.helper_funcs.string_handling import split_quotes
-from YorForger.modules.log_channel import loggable
-from YorForger.modules.sql import warns_sql as sql
+from Yelan.modules.helper_funcs.filters import CustomFilters
+from Yelan.modules.helper_funcs.misc import split_message
+from Yelan.modules.helper_funcs.string_handling import split_quotes
+from Yelan.modules.log_channel import loggable
+from Yelan.modules.sql import warns_sql as sql
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"

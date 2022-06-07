@@ -16,15 +16,15 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-import YorForger.modules.sql.notes_sql as sql
-from YorForger import dispatcher, MESSAGE_DUMP, LOGGER
-from YorForger.modules.connection import connected
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from YorForger.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from YorForger.modules.helper_funcs.msg_types import get_note_type
-from YorForger.modules.helper_funcs.string_handling import (
+import Yelan.modules.sql.notes_sql as sql
+from Yelan import dispatcher, MESSAGE_DUMP, LOGGER
+from Yelan.modules.connection import connected
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from Yelan.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Yelan.modules.helper_funcs.msg_types import get_note_type
+from Yelan.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_to_html,
 )

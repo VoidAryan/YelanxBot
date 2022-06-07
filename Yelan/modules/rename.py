@@ -7,9 +7,9 @@ import pyrogram
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ForceReply
 from pyrogram.errors import UserNotParticipant
-from YorForger.modules.renamer.scrimp import scrimp
-from YorForger.modules.renamer.rerewurmk import rename_as_doc, rename_as_video
-from YorForger import pbot
+from Yelan.modules.renamer.scrimp import scrimp
+from Yelan.modules.renamer.rerewurmk import rename_as_doc, rename_as_video
+from Yelan import pbot
 
 
 

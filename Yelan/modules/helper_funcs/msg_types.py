@@ -3,7 +3,7 @@ from enum import IntEnum, unique
 
 from telegram import Message
 
-from YorForger.modules.helper_funcs.string_handling import (
+from Yelan.modules.helper_funcs.string_handling import (
     button_markdown_parser,
 )
 

@@ -1,8 +1,8 @@
 
 import aiohttp
 from pyrogram import filters
-from YorForger import pbot
-from YorForger.utlis.error import capture_err
+from Yelan import pbot
+from Yelan.utlis.error import capture_err
 
 
 __mod_name__ = "Github"

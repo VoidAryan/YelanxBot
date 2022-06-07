@@ -4,17 +4,17 @@ import json
 import os
 from typing import Optional
 
-from YorForger import (DEV_USERS, DRAGONS, OWNER_ID, DRAGONS, DEMONS, dispatcher)
-from YorForger.modules.helper_funcs.chat_status import (dev_plus, sudo_plus,
+from Yelan import (DEV_USERS, DRAGONS, OWNER_ID, DRAGONS, DEMONS, dispatcher)
+from Yelan.modules.helper_funcs.chat_status import (dev_plus, sudo_plus,
                                                            ass_plus)
-from YorForger.modules.helper_funcs.extraction import extract_user
-from YorForger.modules.log_channel import loggable
+from Yelan.modules.helper_funcs.extraction import extract_user
+from Yelan.modules.log_channel import loggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(),
-                                   'YorForger/elevated_users.json')
+                                   'Yelan/elevated_users.json')
 
 
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:

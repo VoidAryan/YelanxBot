@@ -7,9 +7,9 @@ from pytz import country_names as cname
 from telegram import ParseMode
 from telegram.error import BadRequest
 
-from YorForger import dispatcher, API_WEATHER as APPID
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import typing_action
+from Yelan import dispatcher, API_WEATHER as APPID
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import typing_action
 
 
 @typing_action

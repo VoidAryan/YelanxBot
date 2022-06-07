@@ -7,7 +7,7 @@ from telegram import Chat, ChatMember, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CallbackContext
 
-from YorForger import (
+from Yelan import (
     DEL_CMDS,
     DEV_USERS,
     OWNER_ID,
@@ -309,6 +309,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from YorForger.modules import connection
+from Yelan.modules import connection
 
 connected = connection.connected

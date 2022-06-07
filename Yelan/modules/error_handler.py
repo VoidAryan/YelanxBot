@@ -10,7 +10,7 @@ import requests
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import CallbackContext, CommandHandler
 
-from YorForger import dispatcher, DEV_USERS, MESSAGE_DUMP
+from Yelan import dispatcher, DEV_USERS, MESSAGE_DUMP
 
 pretty_errors.mono()
 

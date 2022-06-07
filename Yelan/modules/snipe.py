@@ -8,10 +8,10 @@ from telegram.ext import Filters, CommandHandler
 from telegram.ext.dispatcher import run_async, CallbackContext
 
 import random
-import YorForger.modules.sql.users_sql as sql
-from YorForger.modules.helper_funcs.filters import CustomFilters
-from YorForger import dispatcher, DEV_USERS, LOGGER
-from YorForger.modules.disable import DisableAbleCommandHandler
+import Yelan.modules.sql.users_sql as sql
+from Yelan.modules.helper_funcs.filters import CustomFilters
+from Yelan import dispatcher, DEV_USERS, LOGGER
+from Yelan.modules.disable import DisableAbleCommandHandler
 
 
 

@@ -1,9 +1,9 @@
 from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.types import Message
-from YorForger import pbot as app
-from YorForger import DEV_USERS , SUPPORT_USERS , WHITELIST_USERS
-from YorForger.modules.Fullpro import member_permissions
+from Yelan import pbot as app
+from Yelan import DEV_USERS , SUPPORT_USERS , WHITELIST_USERS
+from Yelan.modules.Fullpro import member_permissions
 
 SUDO = DEV_USERS, SUPPORT_USERS, WHITELIST_USERS
 

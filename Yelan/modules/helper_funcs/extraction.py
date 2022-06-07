@@ -4,8 +4,8 @@ from typing import List, Optional
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
-from YorForger import LOGGER
-from YorForger.modules.users import get_user_id
+from Yelan import LOGGER
+from Yelan.modules.users import get_user_id
 
 
 def id_from_reply(message):

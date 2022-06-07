@@ -4,9 +4,9 @@ import json
 import requests
 from telegram.ext import CommandHandler, run_async
 
-from YorForger import dispatcher
-from YorForger.modules.helper_funcs.alternate import send_message
-from YorForger.modules.helper_funcs.chat_status import user_admin
+from Yelan import dispatcher
+from Yelan.modules.helper_funcs.alternate import send_message
+from Yelan.modules.helper_funcs.chat_status import user_admin
 
 
 

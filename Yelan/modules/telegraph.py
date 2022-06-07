@@ -1,5 +1,5 @@
-from YorForger.events import register
-from YorForger import client as tbot
+from Yelan.events import register
+from Yelan import client as tbot
 TMP_DOWNLOAD_DIRECTORY = "tg-File/"
 from telethon import events
 import os

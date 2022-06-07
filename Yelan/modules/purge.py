@@ -5,7 +5,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from YorForger import client, DEV_USERS
+from Yelan import client, DEV_USERS
 
 
 # Check if user has admin rights

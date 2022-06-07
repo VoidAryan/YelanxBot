@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from YorForger import DEV_USERS, SUPPORT_USERS, dispatcher
-from YorForger.modules.helper_funcs.extraction import extract_user
-from YorForger.modules.sql.users_sql import get_user_com_chats
+from Yelan import DEV_USERS, SUPPORT_USERS, dispatcher
+from Yelan.modules.helper_funcs.extraction import extract_user
+from Yelan.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters

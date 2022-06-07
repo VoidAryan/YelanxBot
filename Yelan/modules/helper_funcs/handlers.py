@@ -9,11 +9,11 @@ from pyrate_limiter import (
 )
 from telegram import Update
 
-import YorForger.modules.sql.blacklistusers_sql as sql
-from YorForger import LOGGER, DEV_USERS, SUPPORT_USERS, WHITELIST_USERS
+import Yelan.modules.sql.blacklistusers_sql as sql
+from Yelan import LOGGER, DEV_USERS, SUPPORT_USERS, WHITELIST_USERS
 
 try:
-    from YorForger import CUSTOM_CMD
+    from Yelan import CUSTOM_CMD
 except BaseException:
     CUSTOM_CMD = False
 

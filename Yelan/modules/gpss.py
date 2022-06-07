@@ -1,8 +1,8 @@
 import os
-from YorForger import client as tbot
+from Yelan import client as tbot
 from geopy.geocoders import Nominatim
-from YorForger.events import register
-from YorForger import *
+from Yelan.events import register
+from Yelan import *
 from telethon import *
 from telethon.tl import *
 

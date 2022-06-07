@@ -6,11 +6,11 @@ from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
 from telegram.error import BadRequest
 
-import YorForger.modules.game_strings as game_strings
-from YorForger import dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.chat_status import (is_user_admin)
-from YorForger.modules.helper_funcs.extraction import extract_user
+import Yelan.modules.game_strings as game_strings
+from Yelan import dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.chat_status import (is_user_admin)
+from Yelan.modules.helper_funcs.extraction import extract_user
 
 
 

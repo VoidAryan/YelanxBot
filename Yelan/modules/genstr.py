@@ -4,7 +4,7 @@ import time
 import asyncio
 
 from asyncio.exceptions import TimeoutError
-from YorForger import API_ID, API_HASH, pbot
+from Yelan import API_ID, API_HASH, pbot
 from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import (

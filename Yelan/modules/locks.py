@@ -8,19 +8,19 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_html
 
-import YorForger.modules.sql.locks_sql as sql
-from YorForger import dispatcher, LOGGER
-from YorForger.modules.connection import connected
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import send_message, typing_action
-from YorForger.modules.helper_funcs.chat_status import (
+import Yelan.modules.sql.locks_sql as sql
+from Yelan import dispatcher, LOGGER
+from Yelan.modules.connection import connected
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import send_message, typing_action
+from Yelan.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from YorForger.modules.log_channel import loggable
+from Yelan.modules.log_channel import loggable
 
 ad = AlphabetDetector()
 

@@ -22,8 +22,8 @@ from telegram.error import BadRequest, TelegramError, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import YorForger.modules.sql.feds_sql as sql
-from YorForger import (
+import Yelan.modules.sql.feds_sql as sql
+from Yelan import (
     dispatcher,
     OWNER_ID,
     DEV_USERS,
@@ -31,19 +31,19 @@ from YorForger import (
     MESSAGE_DUMP,
     LOGGER,
 )
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import (
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import (
     send_message,
     typing_action,
     send_action,
 )
-from YorForger.modules.helper_funcs.chat_status import is_user_admin
-from YorForger.modules.helper_funcs.extraction import (
+from Yelan.modules.helper_funcs.chat_status import is_user_admin
+from Yelan.modules.helper_funcs.extraction import (
     extract_user,
     extract_unt_fedban,
     extract_user_fban,
 )
-from YorForger.modules.helper_funcs.string_handling import markdown_parser
+from Yelan.modules.helper_funcs.string_handling import markdown_parser
 
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha
 # and peaktogoo and AyraHikari too Federation by MrYacha 2018-2019 Federation rework by Mizukito Akito 2019

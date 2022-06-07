@@ -23,8 +23,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import YorForger.modules.sql.welcome_sql as sql
-from YorForger import (
+import Yelan.modules.sql.welcome_sql as sql
+from Yelan import (
     DEV_USERS,
     DEMONS,
     DRAGONS,
@@ -35,18 +35,18 @@ from YorForger import (
     spamwtc,
     dispatcher,
 )
-from YorForger.modules.helper_funcs.chat_status import (
+from Yelan.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from YorForger.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from YorForger.modules.helper_funcs.msg_types import get_welcome_type
-from YorForger.modules.helper_funcs.string_handling import (
+from Yelan.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Yelan.modules.helper_funcs.msg_types import get_welcome_type
+from Yelan.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from YorForger.modules.log_channel import loggable
-from YorForger.modules.sql.global_bans_sql import is_user_gbanned
+from Yelan.modules.log_channel import loggable
+from Yelan.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",

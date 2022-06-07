@@ -5,8 +5,8 @@ import os
 import heroku3
 import requests
 
-from YorForger import client as borg, HEROKU_APP_NAME, HEROKU_API_KEY, DEV_USERS
-from YorForger.events import register
+from Yelan import client as borg, HEROKU_APP_NAME, HEROKU_API_KEY, DEV_USERS
+from Yelan.events import register
 
 heroku_api = "https://api.heroku.com"
 Heroku = heroku3.from_key(HEROKU_API_KEY)
