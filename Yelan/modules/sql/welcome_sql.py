@@ -8,8 +8,8 @@ from sqlalchemy.sql.sqltypes import BigInteger
 from YorForger.modules.helper_funcs.msg_types import Types
 from YorForger.modules.sql import BASE, SESSION
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hey There Youre Welcomed In Yelan's Domain! ♤"
+DEFAULT_GOODBYE = "Haha! Yelan just got a new enemy!"
 
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
