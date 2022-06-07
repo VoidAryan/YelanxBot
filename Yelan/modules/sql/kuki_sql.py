@@ -1,6 +1,6 @@
 import threading
 from sqlalchemy import Column, String
-from YorForger.modules.sql import BASE, SESSION
+from Yelan.modules.sql import BASE, SESSION
 
 class KukiChats(BASE):
     __tablename__ = "kuki_chats"
