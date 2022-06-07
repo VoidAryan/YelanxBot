@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
                 update.effective_message.reply_photo(
-            START_IMG, caption="Kita Working Since: <code>{}</code>".format(
+            START_IMG, caption="ʜᴀᴠᴇɴ'ᴛ ʀᴇꜱᴛ ꜱɪɴᴄᴇ: <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -254,8 +254,8 @@ def start(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/kitaxsupport"),
-                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/kitaxupdates")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/yelanxsupport"),
+                  InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/yelanxupdates")
                   ]
                 ]
             ),
@@ -330,7 +330,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "╒═══「 *{}* module: 」\n".format(
+                "====「 *{}* module: 」====\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -340,7 +340,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back ", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="【Back To Help】 ", callback_data="help_back")]]
                 ),
             )
 
@@ -391,7 +391,7 @@ def asuna_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="[Back]", callback_data="help_back")
+                    InlineKeyboardButton(text="【Back】", callback_data="help_back")
                  ]
                 ]
             ),
@@ -425,7 +425,7 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Open In Private Chat",
+                            text="ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ✨",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -446,7 +446,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="[Back]", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="【Back】", callback_data="help_back")]]
             ),
         )
 
@@ -518,7 +518,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="---| Back |---",
+                                text="【Back】",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -646,9 +646,9 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                "@https://t.me/kitaxsupport",
+                "@https://t.me/yelanxsupport",
                 "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg",
-                "I Am Ready To Compete!",
+                "ɪᴍ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴄʜ ʏᴏᴜ ✨!",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
