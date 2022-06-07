@@ -4,7 +4,7 @@ import threading
 from sqlalchemy import Integer, Column, String, UnicodeText, func, distinct, Boolean
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.sql.sqltypes import BigInteger
-from YorForger.modules.sql import SESSION, BASE
+from Yelan.modules.sql import SESSION, BASE
 
 
 class Warns(BASE):
