@@ -112,31 +112,18 @@ GROUP_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴅᴏᴍᴀɪɴ",url="http://t.me/kitaxrobot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="×Support×", url=f"https://t.me/kitaxsupport"),                    
-        InlineKeyboardButton(
-            text="×Updates×",  url=f"https://t.me/kitaxupdates"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="--Help--", callback_data="help_back"
-        ),
+            text="【ᴍʏ ᴀʙɪʟɪᴛɪᴇꜱ ᴀɴᴅ ɢᴜɪᴅᴇ】",url="http://t.me/yelanxbot?startgroup=true"),
     ],
    
 ]
 
                     
 HELP_STRINGS = """
-*Main* commands available [💫](https://telegra.ph/file/bee6f9297ff8d3e2ec1c7.jpg) :
- ➛ /help: PM's you this message.
- ➛ /help <module name>: PM's you info about that module.
- ➛ /settings:
-    in PM: will send you your settings for all supported modules.
-    in a group: will redirect you to pm, with all that chat's settings.
+ᴍʏ ᴀʙɪʟɪᴛɪᴇꜱ ᴀɴᴅ ɢᴜɪᴅᴇ [💫](https://telegra.ph/file/bee6f9297ff8d3e2ec1c7.jpg) :
+× [Y E L A N](https://t.me/yelanxbot) ɪꜱ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʜɪɢʜʟʏ ᴜᴘᴅᴀᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏᴠᴇʀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ. 
+× ʏᴏᴜ ᴄᴀɴ ꜱᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴡᴏʀᴋ ʙʏ ᴜꜱɪɴɢ /ᴅᴏɴᴀᴛɪᴏɴ 
+× ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ꜱᴇᴇ ɢᴜɪᴅᴇ ꜰᴏʀ ᴜꜱɪɴɢ ᴛʜᴇᴍ. 
+× ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ᴜɴᴅᴇʀ [【V๏ɪ፝֟𝔡】](https://t.me/voidxnetwork) ✨
 """
 
 GROUP_START_IMG = ""
