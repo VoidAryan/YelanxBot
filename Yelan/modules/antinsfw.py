@@ -2,7 +2,7 @@ from os import remove
 from pyrogram import filters
 from Yelan import DEV_USERS, SUPPORT_USERS, WHITELIST_USERS, pbot as app
 from Yelan.modules.wall import arq
-from Yelan.utlis.error import capture_err
+from Yelan.utils.error import capture_err
 from Yelan.modules.helper_funcs.chun import adminsOnly
 from Yelan.modules.sql.nsfw_sql import is_nsfw, rem_nsfw, set_nsfw
 
