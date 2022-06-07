@@ -647,7 +647,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 "@https://t.me/yelanxsupport",
-                "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg",
+                "https://telegra.ph/file/92de816c4ff8718c99812.jpg",
                 "ɪᴍ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴄʜ ʏᴏᴜ ✨!",
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -695,7 +695,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info(f"Kita deployed. | BOT: [@KitaxRobot]")
+        LOGGER.info(f"Yelan deployed. | BOT: [@yelanxbot]")
         updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
     if len(argv) not in (1, 3, 4):
