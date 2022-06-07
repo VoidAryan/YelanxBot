@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, UnicodeText, String, Boolean
 from sqlalchemy.sql.sqltypes import BigInteger
-from YorForger.modules.sql import BASE, SESSION
+from Yelan.modules.sql import BASE, SESSION
 
 
 class GloballyBannedUsers(BASE):
