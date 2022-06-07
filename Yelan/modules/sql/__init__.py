@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
 
-from YorForger import DB_URI, LOGGER
+from Yelan import DB_URI, LOGGER
 
 
 def start() -> scoped_session:
