@@ -6,8 +6,8 @@ from sqlalchemy import Column, String, UnicodeText, Integer, Boolean
 from sqlalchemy.sql.sqltypes import BigInteger
 from telegram.error import BadRequest, Unauthorized
 
-from YorForger import dispatcher
-from YorForger.modules.sql import SESSION, BASE
+from Yelan import dispatcher
+from Yelan.modules.sql import SESSION, BASE
 
 
 class Federations(BASE):
