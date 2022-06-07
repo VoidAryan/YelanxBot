@@ -4,8 +4,8 @@ import threading
 
 from sqlalchemy import Column, String, Boolean, UnicodeText, Integer, func, distinct
 
-from YorForger.modules.helper_funcs.msg_types import Types
-from YorForger.modules.sql import SESSION, BASE
+from Yelan.modules.helper_funcs.msg_types import Types
+from Yelan.modules.sql import SESSION, BASE
 
 
 class Notes(BASE):
