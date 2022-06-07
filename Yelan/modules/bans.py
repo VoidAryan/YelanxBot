@@ -7,11 +7,11 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters
 from telegram.utils.helpers import mention_html
 
-from YorForger import dispatcher, LOGGER
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.admin_rights import user_can_ban
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.chat_status import (
+from Yelan import dispatcher, LOGGER
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.admin_rights import user_can_ban
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.chat_status import (
     bot_admin,
     user_admin,
     is_user_ban_protected,
@@ -20,9 +20,9 @@ from YorForger.modules.helper_funcs.chat_status import (
     is_user_in_chat,
     can_delete,
 )
-from YorForger.modules.helper_funcs.extraction import extract_user_and_text
-from YorForger.modules.helper_funcs.string_handling import extract_time
-from YorForger.modules.log_channel import loggable
+from Yelan.modules.helper_funcs.extraction import extract_user_and_text
+from Yelan.modules.helper_funcs.string_handling import extract_time
+from Yelan.modules.log_channel import loggable
 
 
 @bot_admin

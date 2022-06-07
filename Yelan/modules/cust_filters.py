@@ -13,22 +13,22 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from YorForger import LOGGER, dispatcher
-from YorForger.modules.connection import connected
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import send_message, typing_action
-from YorForger.modules.helper_funcs.chat_status import user_admin
-from YorForger.modules.helper_funcs.extraction import extract_text
-from YorForger.modules.helper_funcs.filters import CustomFilters
-from YorForger.modules.helper_funcs.misc import build_keyboard_parser
-from YorForger.modules.helper_funcs.msg_types import get_filter_type
-from YorForger.modules.helper_funcs.string_handling import (
+from Yelan import LOGGER, dispatcher
+from Yelan.modules.connection import connected
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import send_message, typing_action
+from Yelan.modules.helper_funcs.chat_status import user_admin
+from Yelan.modules.helper_funcs.extraction import extract_text
+from Yelan.modules.helper_funcs.filters import CustomFilters
+from Yelan.modules.helper_funcs.misc import build_keyboard_parser
+from Yelan.modules.helper_funcs.msg_types import get_filter_type
+from Yelan.modules.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
     split_quotes,
 )
-from YorForger.modules.sql import cust_filters_sql as sql
+from Yelan.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 15
 

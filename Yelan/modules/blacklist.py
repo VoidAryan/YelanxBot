@@ -7,17 +7,17 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters
 from telegram.utils.helpers import mention_html
 
-import YorForger.modules.sql.blacklist_sql as sql
-from YorForger import dispatcher, LOGGER
-from YorForger.modules.connection import connected
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import send_message, typing_action
-from YorForger.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from YorForger.modules.helper_funcs.extraction import extract_text
-from YorForger.modules.helper_funcs.misc import split_message
-from YorForger.modules.helper_funcs.string_handling import extract_time
-from YorForger.modules.log_channel import loggable
-from YorForger.modules.warns import warn
+import Yelan.modules.sql.blacklist_sql as sql
+from Yelan import dispatcher, LOGGER
+from Yelan.modules.connection import connected
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import send_message, typing_action
+from Yelan.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Yelan.modules.helper_funcs.extraction import extract_text
+from Yelan.modules.helper_funcs.misc import split_message
+from Yelan.modules.helper_funcs.string_handling import extract_time
+from Yelan.modules.log_channel import loggable
+from Yelan.modules.warns import warn
 
 BLACKLIST_GROUP = 11
 

@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import YorForger.modules.sql.blsticker_sql as sql
-from YorForger import LOGGER, dispatcher
-from YorForger.modules.connection import connected
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.alternate import send_message
-from YorForger.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from YorForger.modules.helper_funcs.misc import split_message
-from YorForger.modules.helper_funcs.string_handling import extract_time
+import Yelan.modules.sql.blsticker_sql as sql
+from Yelan import LOGGER, dispatcher
+from Yelan.modules.connection import connected
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.alternate import send_message
+from Yelan.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Yelan.modules.helper_funcs.misc import split_message
+from Yelan.modules.helper_funcs.string_handling import extract_time
 
-from YorForger.modules.log_channel import loggable
-from YorForger.modules.warns import warn
+from Yelan.modules.log_channel import loggable
+from Yelan.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler

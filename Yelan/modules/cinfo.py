@@ -1,10 +1,10 @@
-from YorForger import pbot as app
-from YorForger.modules.helper_funcs.section import section
+from Yelan import pbot as app
+from Yelan.modules.helper_funcs.section import section
 
 from telegram import ParseMode
 from pyrogram import filters
 from pyrogram.types import Message
-from YorForger import DEV_USERS
+from Yelan import DEV_USERS
 
 
 async def get_chat_info(chat, already=False):

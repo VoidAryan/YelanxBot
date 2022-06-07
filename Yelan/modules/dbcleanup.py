@@ -5,9 +5,9 @@ from telegram import Bot, Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, Filters
 
-import YorForger.modules.sql.global_bans_sql as gban_sql
-import YorForger.modules.sql.users_sql as user_sql
-from YorForger import dispatcher, DEV_USERS
+import Yelan.modules.sql.global_bans_sql as gban_sql
+import Yelan.modules.sql.users_sql as user_sql
+from Yelan import dispatcher, DEV_USERS
 
 
 def get_invalid_chats(bot: Bot, update: Update, remove: bool = False):

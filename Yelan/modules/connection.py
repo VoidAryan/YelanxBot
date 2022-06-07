@@ -6,10 +6,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler
 
-import YorForger.modules.sql.connection_sql as sql
-from YorForger import dispatcher, DEV_USERS
-from YorForger.modules.helper_funcs import chat_status
-from YorForger.modules.helper_funcs.alternate import send_message, typing_action
+import Yelan.modules.sql.connection_sql as sql
+from Yelan import dispatcher, DEV_USERS
+from Yelan.modules.helper_funcs import chat_status
+from Yelan.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 

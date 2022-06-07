@@ -9,15 +9,15 @@ from telegram.ext import (
     MessageHandler,
 )
 
-from YorForger import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger.modules.helper_funcs.chat_status import (
+from Yelan import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from Yelan.modules.disable import DisableAbleCommandHandler
+from Yelan.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from YorForger.modules.sql import cleanblue_sql as sql
+from Yelan.modules.sql import cleanblue_sql as sql
 
 CMD_STARTERS = ("/", "!") if ALLOW_EXCL else "/"
 BLUE_TEXT_CLEAN_GROUP = 13
