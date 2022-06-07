@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, UnicodeText
 
-from YorForger.modules.sql import BASE, SESSION
+from Yelan.modules.sql import BASE, SESSION
 
 
 class CleanerBlueTextChatSettings(BASE):
