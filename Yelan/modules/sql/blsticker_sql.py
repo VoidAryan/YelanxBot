@@ -1,6 +1,6 @@
 import threading
 
-from YorForger.modules.sql import BASE, SESSION
+from Yelan.modules.sql import BASE, SESSION
 from sqlalchemy import Column, Integer, String, UnicodeText, distinct, func
 
 
