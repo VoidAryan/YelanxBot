@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Numeric, Boolean
-from YorForger.modules.sql import BASE, SESSION
+from Yelan.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):
