@@ -1,7 +1,7 @@
 import asyncio, time, os, asyncio, json
 from telethon.tl.types import DocumentAttributeAudio
 from Yelan.events import register
-from Yelan.utlis import progress
+from Yelan.utils import progress
 from youtube_dl import YoutubeDL
 from youtube_dl.utils import (DownloadError, ContentTooShortError,
 
