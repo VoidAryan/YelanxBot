@@ -85,9 +85,9 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 HELP_IMG = "https://telegra.ph/file/d04b97943062721b30e75.jpg"
-HELP_MSG = "--[ Yelan's Abilities ]--"
+HELP_MSG = "ʜᴇʟᴘ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ ✨"
 START_MSG = "I'm Slaying!\n<b>Haven't stopped since:</b> <code>{}</code>"
-START_IMG = "https://telegra.ph/file/44cf934136b412f383193.jpg"
+START_IMG = "https://telegra.ph/file/c6efca76aa5c6f2fde6a8.jpg"
     
 PM_START_TEXT = """
 ────「 [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork) 」────
