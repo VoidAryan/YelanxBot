@@ -91,17 +91,17 @@ START_IMG = "https://telegra.ph/file/c6efca76aa5c6f2fde6a8.jpg"
     
 PM_START_TEXT = """
 ────「 [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork) 」────
-ᴋᴏɴɪᴄʜɪᴡᴀ `{}`.
-*ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ
+Konichiwa {}.
+*Boku no namai wa  Yelan desu
 ━━━━━━━━━━━━━━━━━━━━━
-ɪ'ᴍ ɴɪɢʜᴛ ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✨
+I'm Night Orchid a Game-Theme Based Group Management Bot and head of yanshan teahouse ✨
 ┏━━━━━━━━━━━━━━━━━━━━
-× *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* `{}`
-× `{}` *ᴛᴇᴀᴍᴍᴀᴛᴇꜱ. ᴀᴄʀᴏꜱꜱ* `{}` *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ.*
-┗━━━━━━━━━━━━━━━━━━━━
-    [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/yelanxsupport) | [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/yelanxupdates)
+× *Awake Since :* {}
+× {} *Teammates. Across* {} *Group Chats.*
+┗━━━━━━━━━━━━━━━━━━━━ 
+[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/yelanxsupport) | [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/yelanxupdates)
 ━━━━━━━━━━━━━━━━━━━━━
-*ᴀᴛᴛᴀᴄᴋ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*
+*Attack /help to know what i am capable of !*
 """
 
 GROUP_START_TEXT = """
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
             elif args[0][1:].isdigit() and "rules" in IMPORTED:
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
-    else:
+                else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
