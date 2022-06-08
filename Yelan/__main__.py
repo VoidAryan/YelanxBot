@@ -246,7 +246,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
                 update.effective_message.reply_photo(
-            START_IMG, caption="ʜᴀᴠᴇɴ'ᴛ ʀᴇꜱᴛ ꜱɪɴᴄᴇ: <code>{}</code>".format(
+            START_IMG, caption="Kita Working Since: <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -254,13 +254,12 @@ def start(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/yelanxsupport"),
-                  InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/yelanxupdates")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/kitaxsupport"),
+                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/kitaxupdates")
                   ]
                 ]
             ),
         )
-
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
