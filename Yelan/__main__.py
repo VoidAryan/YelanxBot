@@ -89,7 +89,7 @@ HELP_MSG = "ʜᴇʟᴘ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ ✨"
 START_MSG = "I'm Slaying!\n<b>Haven't stopped since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/c6efca76aa5c6f2fde6a8.jpg"
     
-caption=PM_START_TEXT.format(first_name),= """
+PM_START_TEXT = """
 ────「 [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork) 」────
 ᴋᴏɴɪᴄʜɪᴡᴀ `{}`.
 *ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ
