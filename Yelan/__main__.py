@@ -90,7 +90,7 @@ START_MSG = "I'm Working Out!\n<b>Haven't stopped since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
     
 PM_START_TEXT = """
-────「【V๏ɪ፝֟𝔡】Network 」────
+────「 [{}](https://telegra.ph/file/871f52a6198ade88a7f3b.mp4) 」────
 Konichiwa {}.
 *Boku no namai wa  Yelan desu
 ━━━━━━━━━━━━━━━━━━━━━
