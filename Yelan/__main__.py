@@ -92,7 +92,7 @@ START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
 PM_START_TEXT = """
 ────「 [{}] 」────
 Konichiwa `{}`.
-*ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ [ʏᴇʟᴀɴ](https://telegra.ph/file/f4967328b8baff6c8ef91.mp4) ᴅᴇꜱᴜ
+*ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ [ʏᴇʟᴀɴ]("https://telegra.ph/file/f4967328b8baff6c8ef91.mp4") ᴅᴇꜱᴜ
 
 ɪ'ᴍ ɴɪɢʜᴛ ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✨* 
 ┏━━━━━━━━━━━━━━━━━━━━
