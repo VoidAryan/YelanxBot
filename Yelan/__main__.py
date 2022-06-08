@@ -84,7 +84,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph/file/d04b97943062721b30e75.jpg"
+HELP_IMG = "https://telegra.ph/file/b92427f20b19c00ac9e59.jpg"
 HELP_MSG = "ʜᴇʟᴘ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ ✨"
 START_MSG = "I'm Slaying!\n<b>Haven't stopped since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/c6efca76aa5c6f2fde6a8.jpg"
@@ -254,7 +254,7 @@ def start(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/yelanxsupport"),
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/yelanxsupport"),
                   InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/yelanxupdates")
                   ]
                 ]
@@ -396,7 +396,7 @@ def asuna_callback_data(update, context):
                 ]
             ),
         )
-    elif query.data == "Kita_back":
+    elif query.data == "Yelan_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
                 PM_START_TEXT.format(
@@ -420,7 +420,7 @@ def get_help(update, context):
     if chat.type != chat.PRIVATE:
 
         update.effective_message.reply_photo(          
-            START_IMG, HELP_MSG,
+            HELP_IMG, HELP_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
