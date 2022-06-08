@@ -99,7 +99,7 @@ I'm Night Orchid a Game-Theme Based Group Management Bot and head of yanshan tea
 × *Awake Since :* {}
 × {} *Teammates. Across* {} *Group Chats.*
 ┗━━━━━━━━━━━━━━━━━━━━ 
-[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/yelanxsupport) | [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/yelanxupdates)
+[Support](https://t.me/yelanxsupport) | [Updates](https://t.me/yelanxupdates)
 ━━━━━━━━━━━━━━━━━━━━━
 *Attack /help to know what i am capable of !*
 """
