@@ -6,7 +6,7 @@ import time
 import re
 import sys
 import traceback
-import YorForger.modules.sql.users_sql as sql
+import Yelan.modules.sql.users_sql as sql
 # @weeb_oo
 
 from sys import argv
@@ -31,12 +31,12 @@ from YorForger import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from YorForger.events import register
-from YorForger.modules import ALL_MODULES
-from YorForger.modules.helper_funcs.chat_status import is_user_admin
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.misc import paginate_modules
-from YorForger.modules.disable import DisableAbleCommandHandler
+from Yelan.events import register
+from Yelan.modules import ALL_MODULES
+from Yelan.modules.helper_funcs.chat_status import is_user_admin
+from Yelan.modules.helper_funcs.alternate import typing_action
+from Yelan.modules.helper_funcs.misc import paginate_modules
+from Yelan.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -152,7 +152,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("YorForger.modules." + module_name)
+    imported_module = importlib.import_module("Yelan.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
