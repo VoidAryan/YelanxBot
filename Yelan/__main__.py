@@ -90,15 +90,14 @@ START_MSG = "I'm Working Out!\n<b>Haven't stopped since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/871f52a6198ade88a7f3b.mp4) 」────
-Konichiwa {}.
-*Boku no namai wa  Yelan desu
-I'm Night Orchid a Game-Theme Based Group Management Bot and head of yanshan teahouse ✨
+────「 [{}](https://telegra.ph/file/8aebbf1cdaad859a30537.mp4) 」────
+Konichiwa `{}`.
+*An Anime Based Bot Working Under* [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)
 ┏━━━━━━━━━━━━━━━━━━━━
-× *Awake Since :* {}
-× {} *Teammates. Across* {} *Group Chats.*
-┗━━━━━━━━━━━━━━━━━━━━ 
-*Attack /help to know what i am capable of !*
+× *Working since:* `{}`
+× `{}` *Teammates, Across* `{}` *Chat groups.*
+┗━━━━━━━━━━━━━━━━━━━━
+*Try The /help Button Below To Know My Abilities!*
 """
 
 GROUP_START_TEXT = """
