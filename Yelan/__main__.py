@@ -93,7 +93,6 @@ PM_START_TEXT = """
 ────「 [{}](https://telegra.ph/file/871f52a6198ade88a7f3b.mp4) 」────
 Konichiwa {}.
 *Boku no namai wa  Yelan desu
-━━━━━━━━━━━━━━━━━━━━━
 I'm Night Orchid a Game-Theme Based Group Management Bot and head of yanshan teahouse ✨
 ┏━━━━━━━━━━━━━━━━━━━━
 × *Awake Since :* {}
