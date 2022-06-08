@@ -90,12 +90,13 @@ START_MSG = "I'm Working Out!\n<b>Haven't stopped since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
     
 PM_START_TEXT = """
-────「 [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork) 」────
+────「 [{}] 」────
 Konichiwa `{}`.
-*An Anime Based Bot Working Under* 
+*ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ  ʏᴇʟᴀɴ ᴅᴇꜱᴜ
+
+ɪ'ᴍ ɴɪɢʜᴛ ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ [✨](https://telegra.ph/file/f4967328b8baff6c8ef91.mp4)* 
 ┏━━━━━━━━━━━━━━━━━━━━
 × *Working since:* `{}`
-➖➖➖➖➖➖➖➖➖➖➖➖➖
 × `{}` *Teammates, Across* `{}` *Chat groups.*
 ┗━━━━━━━━━━━━━━━━━━━━
 *Try The /help Button Below To Know My Abilities!*
