@@ -6,7 +6,7 @@ import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-babe = "KitaxRobot"
+babe = "Yelanxbot"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=babe)
 auth_url = r["auth_url"]
@@ -21,7 +21,7 @@ async def _(event):
         start = datetime.now()
         r_message = await event.get_reply_message()
         input_str = event.pattern_match.group(1)
-        if input_str == "m":
+        if input_str == "gm":
             downloaded_file_name = await tbot.download_media(
                 r_message,
                 TMP_DOWNLOAD_DIRECTORY
@@ -83,7 +83,7 @@ file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
 __help__ = """
- - /tm : Get Telegraph Link Of Replied Media
+ - /tgm : Get Telegraph Link Of Replied Media
  - /txt: Get Telegraph Link of Replied Text
 """
 
