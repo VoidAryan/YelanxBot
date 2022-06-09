@@ -6,7 +6,7 @@ from telegram.ext import (
     CommandHandler,
 )
 
-PHOTO = "https://telegra.ph/file/fa2c031ecf5df678280e5.jpg"
+PHOTO = "https://telegra.ph/file/911f0912c78c67111ad39.jpg"
 
 def alive(update: Update, context: CallbackContext):
     TEXT = f"ɪ ᴀᴍ ʏᴇʟᴀɴ ᴀᴋᴀ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ 🥀\n\nI ɢᴀɴɢᴇᴅ ᴜᴘ ᴡɪᴛʜ 🔥 : **[【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)** \n\nᴡᴀɴᴛ ᴀ ʜᴏᴛ ʙᴏᴛ ᴛᴏ ꜰʟᴀᴛᴛᴇʀ ᴍᴇᴍʙᴇʀꜱ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ? ɪ ᴀᴍ ʜᴇʀᴇ ✨🤞"
