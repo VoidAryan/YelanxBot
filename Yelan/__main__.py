@@ -95,12 +95,12 @@ PM_START_TEXT = """
 ᴋᴏɴɪᴄʜɪᴡᴀ `{}` 👋
 *━━━━━━━━━━━━━━━━━━━*
 *ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ  ʏᴇʟᴀɴ ᴅᴇꜱᴜ*
-*× ɪ'ᴍ ɴɪɢʜᴛ ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✨ !*
+*  ɪ'ᴍ ɴɪɢʜᴛ ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✨ !*
 ┏━━━━━━━━━━━━━━━━━━  
 ┣━ *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* {}
 ┣━ {} *ᴛᴇᴀᴍᴍᴀᴛᴇꜱ. ᴀᴄʀᴏꜱꜱ* {} *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ*
 ┗━━━━━━━━━━━━━━━━━━
-*ᴀᴛᴛᴀᴄᴋ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*
+*ᴀᴛᴛᴀᴄᴋ /help ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*
 """
 
 GROUP_START_TEXT = """
@@ -111,18 +111,18 @@ Haven't stopped since: {}
 buttons = [
     [
         InlineKeyboardButton(
-            text="Invite Me At Your Residence",url="http://t.me/kitaxrobot?startgroup=true"),
+            text="【ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ᴅᴏᴍᴀɪɴ】",url="http://t.me/yelanxbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="×Support×", url=f"https://t.me/kitaxsupport"),                    
+            text="【ꜱᴜᴘᴘᴏʀᴛ】", url=f"https://t.me/yelanxsupport"),                    
         InlineKeyboardButton(
-            text="×Updates×",  url=f"https://t.me/kitaxupdates"
+            text="×【ɴᴇᴛᴡᴏʀᴋ】×",  url=f"https://t.me/voidxnetwork"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="--Help--", callback_data="help_back"
+            text="【ʜᴇʟᴘ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ】", callback_data="help_back"
         ),
     ],
    
