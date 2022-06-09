@@ -111,7 +111,7 @@ GROUP_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="【Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Dᴏᴍᴀɪɴ】",url="http://t.me/yelanxbot?startgroup=true"),
+            text="【Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Dᴏᴍᴀɪɴ】",url="https://t.me/yelanxbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -266,8 +266,8 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
              reply_markup=InlineKeyboardMarkup(         
                [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/kitaxsupport"),
-                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/kitaxupdates")
+                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ】", url="https://t.me/yelanxbot?startgroup=true"),
+                  InlineKeyboardButton(text="【ꜱᴜᴘᴘᴏʀᴛ 】", url="https://t.me/yelanxsupport")
                   ]
                 ]
             ),
@@ -437,7 +437,7 @@ def get_help(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Open In Private Chat",
+                            text="【ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ】",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -607,7 +607,7 @@ def get_settings(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Settings",
+                            text="【ꜱᴇᴛᴛɪɴɢꜱ】",
                             url="t.me/{}?start=stngs_{}".format(
                                 context.bot.username, chat.id
                             ),
@@ -617,7 +617,7 @@ def get_settings(update: Update, context: CallbackContext):
             ),
         )
     else:
-        text = "Click here to check your settings."
+        text = "ᴄᴜʀʀᴇɴᴛ ꜱᴇᴛᴛɪɴɢꜱ ꜱᴀᴠᴇᴅ ɪɴ ʏᴇʟᴀɴ ⚙."
 
 
 def donate(update: Update, context: CallbackContext):
@@ -707,7 +707,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info(f"Kita deployed. | BOT: [@KitaxRobot]")
+        LOGGER.info(f"Yelan deployed. | BOT: [@yelanxbot]")
         updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
     if len(argv) not in (1, 3, 4):
