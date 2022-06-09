@@ -101,7 +101,7 @@ Konichiwa `{}`
 ┣━ *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* {}
 ┣━ {} *ᴛᴇᴀᴍᴍᴀᴛᴇꜱ. ᴀᴄʀᴏꜱꜱ* {} *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ*
 ┗━━━━━━━━━━━━━━━━━━
-*[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/yelanxsupport) | [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/yelanxupdates)*
+*[ꜱᴜᴘᴘᴏʀᴛ]("https://t.me/yelanxsupport") | [ᴜᴘᴅᴀᴛᴇꜱ]("https://t.me/yelanxupdates")*
 *━━━━━━━━━━━━━━━━━━━*
 """
 
