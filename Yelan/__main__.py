@@ -214,7 +214,7 @@ def test(update: Update, context: CallbackContext):
     print(update.effective_message)
 
 
-def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOWN):
+def start(update: Update, context: CallbackContext, update: ParseMode):
     args = context.args
     uptime = get_readable_time((time.time() - StartTime))
     if update.effective_chat.type == "private":
