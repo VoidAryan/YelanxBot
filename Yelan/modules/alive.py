@@ -9,7 +9,7 @@ from telegram.ext import (
 PHOTO = "https://telegra.ph/file/fa2c031ecf5df678280e5.jpg"
 
 def alive(update: Update, context: CallbackContext):
-    TEXT = f"I Am 𝐊𝐢𝐭𝐚 𝐒𝐡𝐢𝐧𝐬𝐮𝐤𝐞!\n\nI Work Under - **[【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)** \n\n◈ I will love to be in your group chat ◈"
+    TEXT = f"ɪ ᴀᴍ ʏᴇʟᴀɴ ᴀᴋᴀ ʜᴇᴀᴅ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ 🥀\n\nI ɢᴀɴɢᴇᴅ ᴜᴘ ᴡɪᴛʜ 🔥 : **[【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)** \n\nᴡᴀɴᴛ ᴀ ʜᴏᴛ ʙᴏᴛ ᴛᴏ ꜰʟᴀᴛᴛᴇʀ ᴍᴇᴍʙᴇʀꜱ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ? ɪ ᴀᴍ ʜᴇʀᴇ ✨🤞"
     
 
     update.effective_message.reply_photo(
@@ -19,8 +19,8 @@ def alive(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton(text="【Support】", url="https://t.me/kitaxsupport"),
-                InlineKeyboardButton(text="【Updates】", url="https://t.me/kitaxupdates")
+                InlineKeyboardButton(text="【Support】", url="https://t.me/yelanxsupport"),
+                InlineKeyboardButton(text="【Updates】", url="https://t.me/yelanxupdates")
                 ],
                 [InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/voidxnetwork")]
             ]
