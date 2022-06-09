@@ -264,9 +264,7 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
             parse_mode=ParseMode.HTML,
 
              reply_markup=InlineKeyboardMarkup(
-                [
-                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true"))
-                ]
+                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true")
             ),
         )
 
