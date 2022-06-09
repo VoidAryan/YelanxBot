@@ -266,7 +266,7 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
              reply_markup=InlineKeyboardMarkup(         
                [
                   [
-                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ】", url="https://t.me/yelanxbot?startgroup=true"),
+                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ】", url="http://t.me/YelanxBot?start"),
                   InlineKeyboardButton(text="【ꜱᴜᴘᴘᴏʀᴛ 】", url="https://t.me/yelanxsupport")
                   ]
                 ]
@@ -600,7 +600,7 @@ def get_settings(update: Update, context: CallbackContext):
         send_settings(chat.id, user.id, True)
 
     elif is_user_admin(chat, user.id):
-        text = "Click here to get this chat's settings, as well as yours."
+        text = "ᴄᴜʀʀᴇɴᴛ ꜱᴇᴛᴛɪɴɢꜱ ꜱᴀᴠᴇᴅ ɪɴ ʏᴇʟᴀɴ ⚙."
         msg.reply_text(
             text,
             reply_markup=InlineKeyboardMarkup(
