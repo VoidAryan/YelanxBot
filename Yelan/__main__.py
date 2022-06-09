@@ -263,8 +263,13 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
             ),
             parse_mode=ParseMode.HTML,
 
-             reply_markup=InlineKeyboardMarkup(
-                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true")
+             reply_markup=InlineKeyboardMarkup(         
+               [
+                  [
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/kitaxsupport"),
+                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/kitaxupdates")
+                  ]
+                ]
             ),
         )
 
