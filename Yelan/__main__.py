@@ -84,13 +84,13 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph/file/bee6f9297ff8d3e2ec1c7.jpg"
-HELP_MSG = "Click the button below to get help menu in your pm."
-START_MSG = "I'm Working Out!\n<b>Haven't stopped since:</b> <code>{}</code>"
+HELP_IMG = "https://telegra.ph/file/fbc19acde0c118f68a27e.jpg"
+HELP_MSG = "ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴍᴇ ᴏᴜᴛ ! ✨"
+START_MSG = "ꜱʟᴀʏɪɴɢ ᴀꜱ ᴀʟᴡᴀʏꜱ 🥀\n<b>ʜᴀᴠᴇɴ'ᴛ ɢᴏᴛ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ꜱɪɴᴄᴇ ☘:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/37ab7b6ed96c2a288c515.mp4) 」────
+    「 [{}](https://telegra.ph/file/37ab7b6ed96c2a288c515.mp4) 」
 *───────────────────*
 ᴋᴏɴɪᴄʜɪᴡᴀ `{}` 👋
 *ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ ✨*
@@ -104,8 +104,8 @@ PM_START_TEXT = """
 """
 
 GROUP_START_TEXT = """
-I'm awake already!
-Haven't stopped since: {}
+ᴀɪɴ'ᴛ ꜱᴛᴏᴘᴘɪɴɢ ʏᴇᴛ ! ✨
+ᴡᴏʀᴋɪɴɢ ᴡɪᴛʜ ɢʀᴀᴄᴇ ꜱɪɴᴄᴇ: {}
 """
 
 buttons = [
@@ -130,12 +130,12 @@ buttons = [
 
                     
 HELP_STRINGS = """
-*Main* commands available [💫](https://telegra.ph/file/bee6f9297ff8d3e2ec1c7.jpg) :
- ➛ /help: PM's you this message.
- ➛ /help <module name>: PM's you info about that module.
- ➛ /settings:
-    in PM: will send you your settings for all supported modules.
-    in a group: will redirect you to pm, with all that chat's settings.
+ᴍʏ ᴀʙɪʟɪᴛɪᴇꜱ ᴀɴᴅ ɢᴜɪᴅᴇ [💫](https://telegra.ph/file/3862906abc0f80f2c01d1.mp4) :
+
+× [Y E L A N](https://t.me/yelanxbot) ɪꜱ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʜɪɢʜʟʏ ᴜᴘᴅᴀᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏᴠᴇʀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ. 
+× ʏᴏᴜ ᴄᴀɴ ꜱᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴡᴏʀᴋ ʙʏ ᴜꜱɪɴɢ /ᴅᴏɴᴀᴛɪᴏɴ 
+× ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ꜱᴇᴇ ɢᴜɪᴅᴇ ꜰᴏʀ ᴜꜱɪɴɢ ᴛʜᴇᴍ. 
+× ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ᴜɴᴅᴇʀ [【V๏ɪ፝֟𝔡】](https://t.me/voidxnetwork) ✨
 """
 
 GROUP_START_IMG = ""
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="【Back】", callback_data="help_back")]]
                     ),
                 )
 
@@ -258,7 +258,7 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
             )
     else:
                 update.effective_message.reply_photo(
-            START_IMG, caption="Kita Working Since: <code>{}</code>".format(
+            START_IMG, caption="ʏᴇʟᴀɴ ᴍᴀɴᴀɢɪɴɢ ᴛʜɪꜱ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ꜱɪɴᴄᴇ: <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -266,8 +266,7 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
              reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/kitaxsupport"),
-                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/kitaxupdates")
+                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true"),
                   ]
                 ]
             ),
@@ -342,7 +341,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "╒═══「 *{}* module: 」\n".format(
+                "「 *{}* module: 」\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -352,7 +351,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back ", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="【Main Help】 ", callback_data="help_back")]]
                 ),
             )
 
@@ -395,7 +394,7 @@ def help_button(update, context):
 def asuna_callback_data(update, context):
     query = update.callback_query
     uptime = get_readable_time((time.time() - StartTime))
-    if query.data == "Kita_":
+    if query.data == "Yelan_":
         query.message.edit_text(
             text="""CallBackQueriesData Here""",
             parse_mode=ParseMode.MARKDOWN,
@@ -403,12 +402,12 @@ def asuna_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="[Back]", callback_data="help_back")
+                    InlineKeyboardButton(text="【Back】", callback_data="help_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "Kita_back":
+    elif query.data == "Yelan_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
                 PM_START_TEXT.format(
@@ -458,7 +457,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="[Back]", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="【Back】", callback_data="help_back")]]
             ),
         )
 
@@ -530,7 +529,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="---| Back |---",
+                                text="【Go Back】",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -658,7 +657,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                "@https://t.me/kitaxsupport",
+                "@https://t.me/yelanxbot",
                 "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg",
                 "I Am Ready To Compete!",
                 parse_mode=ParseMode.MARKDOWN,
