@@ -84,10 +84,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph/file/f277562c87f5e187ae65c.jpg"
+HELP_IMG = "https://telegra.ph/file/fbc19acde0c118f68a27e.jpg"
 HELP_MSG = "ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴍᴇ ᴏᴜᴛ ! ✨"
 START_MSG = "ꜱʟᴀʏɪɴɢ ᴀꜱ ᴀʟᴡᴀʏꜱ 🥀\n<b>ʜᴀᴠᴇɴ'ᴛ ɢᴏᴛ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ꜱɪɴᴄᴇ ☘:</b> <code>{}</code>"
-START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
+START_IMG = "https://telegra.ph/file/f277562c87f5e187ae65c.jpg"
     
 PM_START_TEXT = """
     「 [{}](https://telegra.ph/file/37ab7b6ed96c2a288c515.mp4) 」
