@@ -84,7 +84,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-HELP_IMG = "https://telegra.ph/file/fbc19acde0c118f68a27e.jpg"
+HELP_IMG = "https://telegra.ph/file/f277562c87f5e187ae65c.jpg"
 HELP_MSG = "ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴍᴇ ᴏᴜᴛ ! ✨"
 START_MSG = "ꜱʟᴀʏɪɴɢ ᴀꜱ ᴀʟᴡᴀʏꜱ 🥀\n<b>ʜᴀᴠᴇɴ'ᴛ ɢᴏᴛ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ꜱɪɴᴄᴇ ☘:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
@@ -265,7 +265,7 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
 
              reply_markup=InlineKeyboardMarkup(
                 [
-                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true"),
+                  InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true")
                 ]
             ),
         )
@@ -429,7 +429,7 @@ def get_help(update, context):
     if chat.type != chat.PRIVATE:
 
         update.effective_message.reply_photo(          
-            START_IMG, HELP_MSG,
+            HELP_IMG, HELP_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
