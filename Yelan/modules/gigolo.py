@@ -5,7 +5,7 @@ from Yelan import DEV_USERS, SUPPORT_USERS,pbot as app
 
 SUDOERS = SUPPORT_USERS.append(DEV_USERS)
 
-__mod_name__ = "GAMEY 🎁"
+__mod_name__ = "GAMEY"
 __help__ = """
 Use these commands and try to score.\n\n
 /dice - Dice 🎲\n
