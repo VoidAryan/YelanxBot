@@ -265,7 +265,6 @@ def start(update: Update, context: CallbackContext, parse_mode=ParseMode.MARKDOW
 
              reply_markup=InlineKeyboardMarkup(
                 [
-                  [
                   InlineKeyboardButton(text="【ꜱᴛᴀʀᴛ ʏᴇʟᴀɴ】", ("url=http://t.me/yelanxbot?startgroup=true"),
                 ]
             ),
