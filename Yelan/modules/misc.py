@@ -36,7 +36,7 @@ from Yelan import (
     WHITELIST_USERS,
     WALL_API,
     TIGERS,
-    spamwtc,
+    # spamwtc,
 )
 from Yelan.__main__ import STATS, USER_INFO, GDPR
 from Yelan.modules.disable import DisableAbleCommandHandler
@@ -150,13 +150,13 @@ def info(update, context):
         context.bot.get_user_profile_photos(user.id).total_count
     )
 
-    try:
-        sw = spamwtc.get_ban(int(user.id))
-        if sw:
-            text += "\n\n<b>This person is banned in Spamwatch!</b>"
-            text += f"\nResason: <pre>{sw.reason}</pre>"
-    except BaseException:
-        pass  # Don't break on exceptions like if api is down?
+    # try:
+    #     sw = spamwtc.get_ban(int(user.id))
+    #     if sw:
+    #         text += "\n\n<b>This person is banned in Spamwatch!</b>"
+    #         text += f"\nResason: <pre>{sw.reason}</pre>"
+    # except BaseException:
+    #     pass  # Don't break on exceptions like if api is down?
 
     disaster_level_present = False
 

@@ -18,7 +18,7 @@ from Yelan import (
     WHITELIST_USERS,
     STRICT_GBAN,
     MESSAGE_DUMP,
-    spamwtc,
+    # spamwtc,
 )
 from Yelan.modules.helper_funcs.alternate import typing_action, send_action
 from Yelan.modules.helper_funcs.chat_status import user_admin, is_user_admin
@@ -330,19 +330,19 @@ def gbanlist(update, _):
 
 
 def check_and_ban(update, user_id, should_message=True):
-    try:
-        spmban = spamwtc.get_ban(int(user_id))
-        if spmban:
-            update.effective_chat.kick_member(user_id)
-            if should_message:
-                update.effective_message.reply_text(
-                    f"This person has been detected as spambot by @SpamWatch and has been removed!"
-                    f"\nReason: <code>{spmban.reason}</code>",
-                    parse_mode=ParseMode.HTML,
-                )
-            return
-    except Exception:
-        pass
+    # try:
+    #     spmban = spamwtc.get_ban(int(user_id))
+    #     if spmban:
+    #         update.effective_chat.kick_member(user_id)
+    #         if should_message:
+    #             update.effective_message.reply_text(
+    #                 f"This person has been detected as spambot by @SpamWatch and has been removed!"
+    #                 f"\nReason: <code>{spmban.reason}</code>",
+    #                 parse_mode=ParseMode.HTML,
+    #             )
+    #         return
+    # except Exception:
+    #     pass
 
     if sql.is_user_gbanned(user_id):
         update.effective_chat.kick_member(user_id)

@@ -228,11 +228,11 @@ BOT_ID = 5446239938
 
 
 # Pass if SpamWatch token not set.
-if SPAMWATCH is None:
-    spamwtc = None
-    LOGGER.warning("[Yelan] Invalid spamwatch api")
-else:
-    spamwtc = spamwatch.Client(SPAMWATCH)
+# if SPAMWATCH is None:
+#     spamwtc = None
+#     LOGGER.warning("[Yelan] Invalid spamwatch api")
+# else:
+#     spamwtc = spamwatch.Client(SPAMWATCH)
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 try:
