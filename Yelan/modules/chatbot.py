@@ -42,14 +42,14 @@ def add_chat(update: Update, context: CallbackContext):
     is_kuki = sql.is_kuki(chat.id)
     if not is_kuki:
         sql.set_kuki(chat.id)
-        msg.reply_text("Kita AI successfully enabled for this chat!")
+        msg.reply_text("VOID AI successfully enabled for this chat!")
         message = (
             f"<b>{html.escape(chat.title)}:</b>\n"
             f"AI_ENABLED\n"
             f"<b>Admin:</b> {mention_html(user.id, html.escape(user.first_name))}\n"
         )
         return message
-    msg.reply_text("Kita AI is already enabled for this chat!")
+    msg.reply_text("VOID AI is already enabled for this chat!")
     return ""
 
 
@@ -61,10 +61,10 @@ def rem_chat(update: Update, context: CallbackContext):
     user = update.effective_user
     is_kuki = sql.is_kuki(chat.id)
     if not is_kuki:
-        msg.reply_text("Kita AI isn't enabled here in the first place!")
+        msg.reply_text("VOID AI isn't enabled here in the first place!")
         return ""
     sql.rem_kuki(chat.id)
-    msg.reply_text("Kita AI disabled successfully!")
+    msg.reply_text("VOID AI disabled successfully!")
     message = (
         f"<b>{html.escape(chat.title)}:</b>\n"
         f"AI_DISABLED\n"
@@ -107,7 +107,7 @@ def chatbot(update: Update, context: CallbackContext):
 
 def list_all_chats(update: Update, context: CallbackContext):
     chats = sql.get_all_kuki_chats()
-    text = "<b>Kita AI -Enabled Chats</b>\n"
+    text = "<b>VOID AI -Enabled Chats</b>\n"
     for chat in chats:
         try:
             x = context.bot.get_chat(int(*chat))
