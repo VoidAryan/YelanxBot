@@ -249,7 +249,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome yourself
             if new_mem.id == bot.id:
                 update.effective_message.reply_text(
-                    "Hey {}, I'm {}! Thank you for adding me to {}\n"
+                    "Hey {}, I'm {}! Thank you for adding me to {}\n\n"
                     "Join support and channel update with clicking button below!".format(
                         user.first_name, context.bot.first_name, chat.title
                     ),
@@ -258,10 +258,10 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="☎️ Support", url="https://t.me/KitaxSupport"
+                                    text="☎️ Support", url="https://t.me/yelanxsupport"
                                 ),
                                 InlineKeyboardButton(
-                                    text="Updates 📡", url="https://t.me/kitaxupdates"
+                                    text="Updates 📡", url="https://t.me/yelanxupdates"
                                 ),
                             ]
                         ],
